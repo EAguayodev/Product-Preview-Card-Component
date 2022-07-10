@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    /* Primary Colors */
+    --dark-cyan: hsl(158, 36%, 37%);
+    --cream: hsl(30, 38%, 92%);
+    /* Neutral Colors */
+    --very-dark-blue: hsl(212, 21%, 14%);
+    --dark-grayish-blue: hsl(228, 12%, 48%);
+    --white: hsl(0, 0%, 100%);
+    /* font family variables */
+    --fraunces-family: 'Fraunces', serif;
+    --montserrat-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: var(--cream);
+}
+
+
+.row__card {
+    display: flex;
+    justify-content: center;
+    
+    margin: 80px auto;
+}
+
+.left__product {
+    background-image: url(/images/image-product-desktop.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 305px;
+    height: 450px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.right__buy {
+    background: var(--white);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 303px;
+    height: 452px;
+}
+
+.right__buy h1:nth-child(1){
+    color: var(--dark-grayish-blue);
+    font-family: var(--montserrat-family);
+    font-weight: 500;
+    font-size: 20px;
+    margin: 2rem 0 0 2rem;
+}
+
+.right__buy h1:nth-child(2) {
+    color: var(--very-dark-blue);
+    font-family: var(--fraunces-family);
+    font-weight: 700;
+    margin-left: 2rem;
+}
+
+.right__buy h2 {
+    color: var(--dark-cyan);
+    font-size: 34px;
+    margin: 3rem 9rem 0 2rem;
+}
+
+span{
+    color: var(--dark-grayish-blue);
+    margin-left: 3rem;
+}
+
+.right__buy P {
+    color: var(--dark-grayish-blue);
+    font-family: var(--montserrat-family);
+    font-weight: 500;
+    font-size: 14px;
+    margin: 1rem 0 0 2rem;
+    line-height: 23px;
+}
+
+.btn__cart {
+    text-decoration: none;
+    background-color: var(--dark-cyan);
+    cursor: pointer;
+    color: var(--white);
+    width: 338px;
+    height: 50px;
+    padding: 13px 80px;
+    border-radius: 10px;
+    margin: 0 0 0 1.5rem;
+}
+
+.btn__cart:hover{
+    background-color: hsl(158, 37%, 20%);
+}
+
+@media(max-width: 767px) {
+
+}
