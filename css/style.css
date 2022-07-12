@@ -69,7 +69,7 @@ body{
     color: var(--dark-cyan);
     font-size: 32px;
     font-family: var(--fraunces-family);
-    margin: 1.5rem 0 2rem 2rem;
+    margin: 1.5rem 0 1rem 2rem;
 }
 
 span{
@@ -96,7 +96,8 @@ span{
     height: 50px;
     padding: 13px 80px;
     border-radius: 10px;
-    margin: 3rem 0 0 1.5rem;
+    margin: 1rem 0 0 1.5rem;
+    display: block;
 }
 
 .btn__cart:hover{
