@@ -107,7 +107,7 @@ span{
     background-color: hsl(158, 37%, 20%);
 }
 
-@media(max-width: 767px) {
+@media(max-width: 600px) {
     .row__card {
             display: flex;
             flex-direction: column;
